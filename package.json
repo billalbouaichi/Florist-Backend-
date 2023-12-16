@@ -1,0 +1,45 @@
+{
+  "name": "base_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "node app.js",
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async-handler-express": "^0.2.4",
+    "bcryptjs": "^2.4.3",
+    "bootstrap": "^5.3.2",
+    "connect-livereload": "^0.6.1",
+    "cors": "^2.8.5",
+    "create-react-app": "^5.0.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jquery": "^3.7.1",
+    "jsonwebtoken": "^9.0.2",
+    "livereload": "^0.9.3",
+    "mysql2": "^3.6.5",
+    "nodemon": "^3.0.1",
+    "sequelize": "^6.35.1",
+    "slick-carousel": "^1.8.1",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "eslint": "^8.35.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "prettier": "^2.8.4",
+    "tailwindcss": "^3.3.3"
+  }
+}
